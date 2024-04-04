@@ -1,0 +1,32 @@
+{
+    "name": "online-bookstore",
+    "version": "1.0.0",
+    "description": "Online bookstore application",
+    "main": "server/index.ts",
+    "scripts": {
+        "start": "bun run server/index.ts",
+        "build": "esbuild client/index.tsx --bundle --outfile=dist/bundle.js --platform=browser",
+        "dev": "bun i && bun --watch server/index.ts"
+    },
+    "dependencies": {
+        "bun": "latest",
+        "cookie-parser": "latest",
+        "esbuild": "latest",
+        "express": "latest",
+        "react": "latest",
+        "react-dom": "latest",
+        "react-router-dom": "latest",
+        "socket.io": "latest",
+        "sqlite3": "latest",
+        "socket.io-client": "latest"
+    },
+    "devDependencies": {
+        "@types/cookie-parser": "latest",
+        "@types/express": "latest",
+        "@types/react": "latest",
+        "@types/react-dom": "latest",
+        "@types/react-router-dom": "latest",
+        "@types/socket.io": "latest",
+        "typescript": "latest"
+    }
+}

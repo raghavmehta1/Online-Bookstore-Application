@@ -1,4 +1,4 @@
-# Online-Bookstore-Application
+
 # Online Bookstore Application
 
 This is an online bookstore application that allows users to browse, search, and purchase books. The application has both frontend and backend components, providing a seamless user experience.
@@ -39,3 +39,4 @@ bun server/run.ts
 ```
 
 This will start the server and make the application accessible at `http://localhost:8001`.
+
